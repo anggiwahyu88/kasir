@@ -1,0 +1,99 @@
+.transaction-list {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.transaction-list__card {
+    border: solid;
+    border-radius: 10%;
+    width: 500px;
+    height: 290px;
+    background-color: var(--color-white);
+}
+
+.transaction-list__card__no-order {
+    height: 25%;
+    display: flex;
+    align-items: center;
+    font-size: 23px;
+    padding-left: 15px;
+    font-weight: 500;
+}
+
+.transaction-list__card__detail-transaction {
+    display: flex;
+    height: 75%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    row-gap: 10px;
+}
+
+.transaction-list__card__detail-transaction__total-price,.transaction-list__card__detail-transaction__paid-amount {
+    border: solid;
+    width: 41%;
+    height: 42%;
+    border-radius: 6%;
+    padding-left: 8px;
+}
+
+
+.transaction-list__card__detail-transaction__total-price>p, .transaction-list__card__detail-transaction__paid-amount>p {
+    font-size: 20px;
+}
+
+.transaction-list__card__detail-transaction__total-price>span, .transaction-list__card__detail-transaction__paid-amount>span {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+
+.transaction-list__card__detail-transaction__list-items {
+    border: solid;
+    width: 54%;
+    height: 89%;
+    border-radius: 6%;
+    padding-left: 21px;
+    overflow-y: overlay;
+    scrollbar-width: thin;
+    scrollbar-color: #a9b1b3 #DFE9EB;
+}
+
+.transaction-list__card__detail-transaction__list-items>p{
+    font-size: 18px;
+}
+
+.transaction-list__card__detail-transaction__list-items::-webkit-scrollbar {
+    width: 7px;
+    width: 7px;
+}
+
+.transaction-list__card__detail-transaction__list-items::-webkit-scrollbar-track {
+    border-radius: 5px;
+    background-color: #c9d2d3;
+    border: 10px solid white;
+}
+
+.transaction-list__card__detail-transaction__list-items::-webkit-scrollbar-track:hover {
+    background-color: #a9b1b3;
+}
+
+.transaction-list__card__detail-transaction__list-items::-webkit-scrollbar-track:active {
+    background-color: #a9b1b3;
+}
+
+.transaction-list__card__detail-transaction__list-items::-webkit-scrollbar-thumb {
+    border-radius: 20px;
+    background-color: #a9b1b3;
+}
+
+.transaction-list__card__detail-transaction__list-items::-webkit-scrollbar-thumb:hover {
+    background-color: #c9d2d3;
+}
+
+.transaction-list__card__detail-transaction__list-items::-webkit-scrollbar-thumb:active {
+    background-color: #a9b1b3;
+}

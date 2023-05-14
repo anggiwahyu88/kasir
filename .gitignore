@@ -1,0 +1,9 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+/pos-server-api/.env
+/pos-server-api/node_modules
+
+/fe-client/node_modules
+/fe-client/.next
+/fe-client/.env
+
